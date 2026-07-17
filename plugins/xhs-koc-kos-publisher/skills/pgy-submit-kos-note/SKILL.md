@@ -7,6 +7,10 @@ description: Publish batches of locally stored 小红书 notes from the simple K
 
 Automate a task explicitly enabled for automatic publication while preventing account-type, account, and order cross-routing.
 
+## Copy the template
+
+When the user asks for the batch template, run scripts/copy_template.py OUTPUT_PATH. The script reconstructs the XLSX in the employee's chosen local folder, so the shared plugin does not depend on the original computer.
+
 ## Route first
 
 Read `类型` from the local task before any publishing action.
