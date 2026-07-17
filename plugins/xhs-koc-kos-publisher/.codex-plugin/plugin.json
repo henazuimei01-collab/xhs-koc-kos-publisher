@@ -1,0 +1,18 @@
+{
+  "name": "xhs-koc-kos-publisher",
+  "version": "0.1.0",
+  "description": "员工本地使用的小红书 KOC 商单与 KOS 直发批量定时发布工具",
+  "author": {
+    "name": "转转奢侈品回收营销团队"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "小红书 KOC/KOS 定时发布",
+    "shortDescription": "读取本地素材，批量完成KOC商单与KOS直发定时发布。",
+    "longDescription": "员工通过极简Excel模板提交多账号、多时间的本地笔记。KOC必须匹配蒲公英订单，KOS必须直接发布且禁止绑定订单。",
+    "developerName": "转转奢侈品回收营销团队",
+    "category": "Productivity",
+    "capabilities": ["local-files", "chrome"],
+    "defaultPrompt": "使用批量发布模板检查我的KOC/KOS任务，确认后上传并设置定时发布。"
+  }
+}
