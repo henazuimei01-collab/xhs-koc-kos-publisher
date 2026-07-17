@@ -1,0 +1,20 @@
+{
+  "name": "xhs-tools",
+  "interface": {
+    "displayName": "小红书发布工具"
+  },
+  "plugins": [
+    {
+      "name": "xhs-koc-kos-publisher",
+      "source": {
+        "source": "local",
+        "path": "./plugins/xhs-koc-kos-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
